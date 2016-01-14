@@ -1,6 +1,6 @@
 <?php
 /**
- * ownCloud - logextension
+ * ownCloud - activity_logging
  *
  * This file is licensed under the Affero General Public License version 3 or
  * later. See the COPYING file.
@@ -38,7 +38,7 @@ class PageController extends Controller {
 	 */
 	public function index() {
 		$params = ['user' => $this->userId];
-		return new TemplateResponse('logextension', 'main', $params);  // templates/main.php
+		return new TemplateResponse('activity_logging', 'main', $params);  // templates/main.php
 	}
 
 	/**

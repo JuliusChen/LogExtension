@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <info>
-    <id>logextension</id>
+    <id>activity_logging</id>
     <name>Log Extension</name>
     <description>Enhance log records</description>
     <licence>AGPL</licence>
